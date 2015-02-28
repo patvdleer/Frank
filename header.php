@@ -16,10 +16,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
 	<title>
-		<?php
-		wp_title( '&mdash;', true, 'right' );
-		bloginfo( 'name' );
-		?>
+		<?php wp_title( '&mdash;', true, 'right' ); ?>
+		-
+		<?php bloginfo( 'name' ); ?>
 	</title>
 
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
